@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: fixed
+}
+h1 {
+    text-align: center;
+    color: #111010;
+}
+ h2{
+    text-align:left;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color:white;
+   border: 10px;
+    cursor: pointer;
+}
+
+#output {
+    margin-top: 10px;
+    border: 10px solid transparent;
+    padding: 300px;
+    background-color: transparent;
+}
